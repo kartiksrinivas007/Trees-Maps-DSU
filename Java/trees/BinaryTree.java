@@ -39,4 +39,8 @@ public class BinaryTree {
 
         }
     }
+    
+    public void bfs(){
+        
+    }
 }
