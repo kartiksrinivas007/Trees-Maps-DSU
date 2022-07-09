@@ -15,3 +15,7 @@ class BST{
         Node<T>* BST_pred(Node<T>* node);
         //how to define your own copy constructor etc
 };
+template <typename T>
+BST<T>::BST(){
+    Root = NULL;
+}
