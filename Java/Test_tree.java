@@ -7,6 +7,9 @@ public class Test_tree{
         bst.Insert(6);
         bst.Insert(7);
         bst.Insert(8);
+        bst.Insert(4);
         System.out.println("Reached Succesfully!");
+        bst.dfs();
+        bst.bfs();
     }
 }
